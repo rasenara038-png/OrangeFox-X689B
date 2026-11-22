@@ -30,3 +30,7 @@ TW_INCLUDE_REPACKTOOLS := true
 OF_USE_MAGISKBOOT := true
 
 BOARD_SUPPRESS_SECURE_ERASE := true
+
+BOARD_PREBUILT_KERNEL := device/infinix/X689B/prebuilt/kernel
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+BOARD_PREBUILT_DTB := device/infinix/X689B/prebuilt/dtb
